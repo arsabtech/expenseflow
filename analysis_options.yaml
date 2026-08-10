@@ -1,0 +1,18 @@
+
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    - avoid_print
+    - avoid_empty_else
+    - avoid_unused_constructor_parameters
+    - avoid_returning_null_for_future
+    - cancel_subscriptions
+    - close_sinks
+    - use_key_in_widget_constructors
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - avoid_unnecessary_containers
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
